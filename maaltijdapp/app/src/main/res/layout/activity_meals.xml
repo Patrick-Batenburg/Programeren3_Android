@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.patrick.maaltijdapp.controller.activities.MealsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/meals_title"
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:layout_alignParentTop="true"
+            android:layout_below="@id/meals_title"
+            android:text="@string/meals_title"
+            android:textColor="@color/primary_text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/meals_swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/input_button_create_meal"
+            android:layout_below="@id/meals_title">
+
+            <ListView
+                android:id="@+id/meal_list_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:animationCache="false"
+                android:scrollingCache="false"
+                android:smoothScrollbar="true" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <Button
+            android:id="@+id/input_button_create_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:nestedScrollingEnabled="false"
+            android:text="@string/input_button_create_meal" />
+    </RelativeLayout>
+</RelativeLayout>

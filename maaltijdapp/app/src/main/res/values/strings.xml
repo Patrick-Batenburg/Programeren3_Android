@@ -1,0 +1,114 @@
+<resources>
+    <string name="placeholder">Lorem ipsum dolor sit amet</string>
+
+    <string name="app_name">Studenten Maaltijd App</string>
+    <string name="app_icon_description">Maaltijd App icon</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+
+    <string name="input_button_login">Inloggen</string>
+    <string name="input_button_register">Acocunt aanmaken</string>
+    <string name="input_button_add">Toevoegen</string>
+    <string name="input_button_delete">Verwijderen</string>
+    <string name="input_button_save">Opslaan</string>
+    <string name="input_button_create_meal">Maaltijd toevoegen</string>
+    <string name="input_button_meal_upload_image">Upload een afbeelding</string>
+    <string name="input_button_meal_subscribe">Inschrijven</string>
+    <string name="input_button_meal_unsubscribe">Uitschrijven</string>
+    <string name="input_button_meal_date">Selecteer datum</string>
+    <string name="input_button_meal_time">Selecteer tijd</string>
+    <string name="input_button_meal_delete">Maaltijd verwijderen</string>
+    <string name="input_button_meal_update">Maaltijd bijwerken</string>
+    <string name="input_button_meal_full">Er zijn geen plekken beschikbaar</string>
+    <string name="input_button_add_fellow_eater">Gast toevoegen</string>
+
+
+    <string name="input_link_register">Geen account? Registreer hier</string>
+    <string name="input_link_login">Al een account? Ga naar login</string>
+
+    <string name="input_switch_is_cook_eating">Eet je mee?</string>
+
+    <string name="input_amount_of_guests">Aantal gasten</string>
+    <string name="input_student_number">Studentnummer</string>
+    <string name="input_password">Wachtwoord</string>
+    <string name="input_re_enter_password">Wachtwoord bevestigen</string>
+    <string name="input_first_name">Naam</string>
+    <string name="input_insertion">Tussenvoegsel</string>
+    <string name="input_last_name">Achternaam</string>
+    <string name="input_phone_number">Mobiel nummer</string>
+    <string name="input_email_address">Email</string>
+
+    <string name="input_meal_description">Beschrijving (allergieën, ingrediënten etc.)</string>
+    <string name="input_meal_name">Naam maaltijd</string>
+    <string name="input_meal_date">Datum in dd-MM-yyyy</string>
+    <string name="input_meal_time">Tijd in HH:mm</string>
+    <string name="input_meal_max_amount_of_guests">Maximum aantal mee-eters</string>
+    <string name="input_meal_price">Prijs per mee-eters</string>
+
+    <string name="login_title">Inlogggen op de Maaltijd App</string>
+    <string name="register_title">Registreren voor de Maaltijd App</string>
+
+    <string name="meal_create_or_update_title">Maaltijd toevoegen/Maaltijd wijzigen</string>
+    <string name="meal_create_title">Maaltijd toevoegen</string>
+    <string name="meal_update_title">Maaltijd wijzigen</string>
+    <string name="meal_subscribe_title">Inschrijven voor deze maaltijd?</string>
+    <string name="meal_subscribe_fellow_eater_title">Hoeveel gasten neemt u mee?</string>
+    <string name="meal_other_information_title">Overige informatie</string>
+
+    <string name="meal_image">Foto van het gerecht</string>
+    <string name="meal_choose_image">Kies een afbeelding</string>
+    <string name="meal_choose_new_image">Kies een nieuwe afbeelding?</string>
+    <string name="meal_image_name">Geen afbeelding gekozen</string>
+    <string name="meal_date_time">Geldig tot en met: </string>
+    <string name="meal_chef_name">Gemaakt door: </string>
+    <string name="meal_chef_eats">Kok eet mee: </string>
+
+    <string name="meal_amount_of_fellow_eaters">Aantal mee-eters: </string>
+    <string name="meal_price">Prijs per mee-eter: €</string>
+
+    <string name="meals_title">Maaltijden</string>
+
+    <string name="chef_icon">👨‍</string>
+    <string name="money_icon">💰</string>
+    <string name="time_icon">⏰</string>
+
+    <string name="error_json_object">Er is een fout opgetreden, probeer het later nog een keer</string>
+    <string name="error_connection">Er kon geen verbinding gemaakt worden, probeer het later opnieuw</string>
+    <string name="error_invalid_token">Er kon geen verbinding gemaakt worden, probeer het later opnieuw</string>
+
+    <string name="error_re_enter_password">Wachtwoord komt niet overeen</string>
+    <string name="error_first_name">Voornaam is leeg</string>
+    <string name="error_last_name">Achternaam is leeg</string>
+    <string name="error_email">Voer een geldig e-mailadres in</string>
+    <string name="error_password">Wachtwoord is leeg</string>
+    <string name="error_phone_number">Voer een geldig mobiel nummer in</string>
+    <string name="error_student_number">Studentnummer is onjuist</string>
+    <string name="error_register_account">Kon account niet aanmaken, probeer het later opnieuw of student nummer is al in gebruik</string>
+    <string name="error_login">Studentnummer of wachtwoord is onjuist</string>
+    <string name="error_amount_of_guests">Aantal gasten is onjuist</string>
+    <string name="error_reload">Kon niet herladen</string>
+    <string name="error_amount_of_guests_limit">Aantal mee-eters overschrijd het maximum aantal plekken</string>
+    <string name="error_meal_dish">Naam van de maaltijd is leeg</string>
+    <string name="error_meal_date">Datum is onjuist</string>
+    <string name="error_meal_time">Tijd is onjuist</string>
+    <string name="error_meal_description">Beschrijving is leeg</string>
+    <string name="error_meal_price">Prijs is onjuist</string>
+    <string name="error_meal_max_fellow_eaters">Aantal mee-eters is onjuist</string>
+
+
+    <string name="message_meal_subscribed">U bent succesvol ingeschreven voor deze maaltijd</string>
+    <string name="message_meal_unsubscribed">U bent succesvol uitgeschreven voor deze maaltijd</string>
+    <string name="message_meal_created">Maaltijd is succesvol aanngemaakt</string>
+    <string name="message_meal_updated">Maaltijd is succesvol bijgewerkt</string>
+    <string name="message_meal_deleted">Maaltijd is succesvol verwijderd</string>
+    <string name="message_delete_meal">Weet je het zeker dat je deze maaltijd wilt verwijderen?</string>
+    <string name="message_meal_unsubscribe">Weet je het zeker dat je voor deze maaltijd je wilt uitschrijven?</string>
+    <string name="message_token_invalid">Uw sessie is verlopen</string>
+    <string name="message_account_registered">Account is succesvol geregistreerd</string>
+    <string name="message_login_success">Login succesvol</string>
+    <string name="message_reload_success">Herladen succesvol</string>
+
+    <string name="message_title_delete_meal">Maaltijd verwijderen?</string>
+    <string name="message_title_unsubscribe">Uitschrijven?</string>
+
+</resources>

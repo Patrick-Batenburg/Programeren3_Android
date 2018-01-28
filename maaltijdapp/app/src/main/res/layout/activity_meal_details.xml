@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true"
+    tools:context="com.patrick.maaltijdapp.controller.activities.MealDetailsActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_meal_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp" >
+
+        <ImageView
+            android:id="@+id/meal_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/meal_image"
+            android:paddingBottom="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/no_image" />
+
+        <TextView
+            android:id="@+id/meal_dish_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:text="@string/placeholder"
+            android:textColor="@color/primary_text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/meal_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:paddingBottom="8dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:id="@+id/meal_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:text="@string/meal_other_information_title"
+            android:textColor="@color/primary_text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/meal_chef_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:paddingBottom="8dp"
+            android:text="@string/meal_chef_name"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:id="@+id/meal_chef_eats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:paddingBottom="8dp"
+            android:text="@string/meal_chef_eats"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:id="@+id/meal_amount_of_fellow_eaters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:paddingBottom="8dp"
+            android:text="@string/meal_amount_of_fellow_eaters"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:id="@+id/meal_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:paddingBottom="8dp"
+            android:text="@string/meal_price"
+            android:textColor="@color/primary_text" />
+
+        <TextView
+            android:id="@+id/meal_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:paddingBottom="8dp"
+            android:text="@string/meal_date_time"
+            android:textColor="@color/primary_text" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/input_button_meal_subscribe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/input_button_meal_subscribe"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/input_button_meal_unsubscribe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/input_button_meal_unsubscribe"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/input_button_meal_update"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/input_button_meal_update"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/input_button_meal_delete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/input_button_meal_delete"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/input_button_meal_full"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/input_button_meal_full"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
